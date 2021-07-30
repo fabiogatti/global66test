@@ -7,7 +7,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import router from "./router";
 import axios from "axios";
-import VueAxios from 'vue-axios'
+import VueAxios from 'vue-axios';
 
 library.add(fas);
 

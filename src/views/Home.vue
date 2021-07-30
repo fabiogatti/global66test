@@ -1,6 +1,6 @@
 <template>
   <div
-    class="welcome flex flex-col w-full h-screen items-center justify-center"
+    class="welcome flex flex-col w-full h-screen items-center justify-center px-6 main-back-color"
   >
     <div class="">
       <svg
