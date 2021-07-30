@@ -132,7 +132,6 @@ export default {
 
         if(this.filteredList.length == 0){
           this.noResults = true;
-          console.log(this.noResults)
         }
       },
     )
@@ -147,7 +146,6 @@ export default {
         this.loader = true;
         this.axios.get('https://pokeapi.co/api/v2/pokemon/'+newValue)
           .then(response => {
-            console.log(response);
             let types = response.data.types.length == 1 ? this.capitalizeStr(response.data.types[0].type.name) : this.capitalizeStr(response.data.types[0].type.name)+' - '+ this.capitalizeStr(response.data.types[1].type.name);
             this.modalPoke = { 
               name: this.capitalizeStr(newValue), 

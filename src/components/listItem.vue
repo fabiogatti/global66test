@@ -29,7 +29,6 @@ export default {
   },
   methods:{
     openModal(){
-      console.log("Opening modal...");
       this.$store.commit('setNewModal',this.name);
     },
     toggleFavorite(){
